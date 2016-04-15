@@ -11,10 +11,12 @@ email: inbox@buu.vn
 description: > #
     cat /var/log/life.error
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cosmospham.github.io" # the base hostname & protocol for your site
+url: "https://cosmospham.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  cosmospham
 facebook_username:  buu.vn
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-sitemap
