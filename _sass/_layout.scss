@@ -163,6 +163,32 @@
     }
 }
 
+.contact-info {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.contact-info li {
+    display: inline-block;
+    float: left;
+    margin-right: 2em;
+
+    
+}
+
+@include media-query($on-palm) {
+    .contact-info li {
+        display: block;
+        width: 100%;
+    }
+
+    .contact-info li:after,
+    .contact-info li:before {
+        clear: both;
+    }
+}
+
 
 
 /**
