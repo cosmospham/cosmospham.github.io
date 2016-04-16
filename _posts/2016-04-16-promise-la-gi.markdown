@@ -4,6 +4,7 @@ title: "Promise là cái khỉ gì?"
 date: 2016-04-16 14:00:03 +0700
 categories: javascript
 excerpt: "Bài viết này sẽ giới thiệu cho các bạn một đối tượng torng JavaScript, đó là Promise. Nghe khá mới mẻ phải không nào."
+image: "javascript-promise-la-gi.jpg"
 ---
 Bài viết này sẽ giới thiệu cho các bạn một đối tượng trong JavaScript, đó là `Promise`. Nghe khá mới mẻ phải không nào.
 
