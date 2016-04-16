@@ -202,4 +202,4 @@ result.then(function(new_time) {
 });
 {% endhighlight %}
 
-Như vậy, qua vài đoạn code trên các bạn cũng hiểu được Promise là gì và cách tạo, sử dụng Promise rồi ha. Hẹn gặp ở các bài viết khác. -c-
+Như vậy, qua vài đoạn code trên các bạn cũng hiểu được Promise là gì và cách tạo, sử dụng Promise rồi ha. Hẹn gặp ở các bài viết khác. &copy;
