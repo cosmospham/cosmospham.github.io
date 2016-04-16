@@ -7,16 +7,22 @@
 
 # Site settings
 title: Cosmos Pham
+header-img: img/home-bg.jpg
 email: inbox@buu.vn
+copyright_name: "Cosmos Pham"
 description: > #
     cat /var/log/life.error
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cosmospham.github.io" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
+twitter_username: buuvn
 github_username:  cosmospham
 facebook_username:  buu.vn
-
+email_username:  inbox@buu.vn
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems:
-  - jekyll-sitemap
+  [jekyll-sitemap, jekyll-paginate, jekyll-feed]
