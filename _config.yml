@@ -18,6 +18,7 @@ twitter_username: buuvn
 github_username:  cosmospham
 facebook_username:  buu.vn
 email_username:  inbox@buu.vn
+featured_image:  /assets/img/featured.jpg
 app_id:  1707934562753534
 # Build settings
 markdown: kramdown
