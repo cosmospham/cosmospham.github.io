@@ -15,7 +15,7 @@ description: "cat /var/log/life.error"
         {% endif %}
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-    <p class="post-excerpt">{{ post.excerpt }}</p>
+    <p class="post-excerpt">{% if post.description %}{{ post.description }}{% else if post.excerpt %}{{ post.excerpt }}{% endif %}</p>
 </div>
 <hr>
 {% endfor %}
