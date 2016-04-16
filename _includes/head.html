@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="Content-Security-Policy" content="script-src 'self' http://cosmosphamgithub.disqus.com/">
+
     {% if page.description %}
         <meta content="{{ page.description }}" name="description">
     {% else if page.excerpt %}
