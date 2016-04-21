@@ -406,3 +406,30 @@ body {
   color: white;
   padding: 0.15em;
 }
+.tag-list .tag:nth-child(9n) {
+  background-color: #444444;
+}
+.tag-list .tag:nth-child(9n+1) {
+  background-color: #296393;
+}
+.tag-list .tag:nth-child(9n+2) {
+  background-color: #41913F;
+}
+.tag-list .tag:nth-child(9n+3) {
+  background-color: #8A201E;
+}
+.tag-list .tag:nth-child(9n+4) {
+  background-color: #47687A;
+}
+.tag-list .tag:nth-child(9n+5) {
+  background-color: #7D00CC;
+}
+.tag-list .tag:nth-child(9n+6) {
+  background-color: #007A78;
+}
+.tag-list .tag:nth-child(9n+7) {
+  background-color: #8A5728;
+}
+.tag-list .tag:nth-child(9n+8) {
+  background-color: #881586;
+}

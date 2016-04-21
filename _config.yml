@@ -22,6 +22,8 @@ featured_image:  /assets/img/featured.jpg
 app_id:  1707934562753534
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: rouge
 permalink: pretty
 paginate: 5
