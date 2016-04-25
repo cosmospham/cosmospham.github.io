@@ -11,7 +11,8 @@ header-img: img/home-bg.jpg
 email: inbox@buu.vn
 copyright_name: "Cosmos Pham"
 description: > #
-    cat /var/log/life.error
+    If you spend too much time thinking about a thing,<br/> you'll never get it done.
+        - Bruce Lee -
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cosmospham.github.io" # the base hostname & protocol for your site
 twitter_username: buuvn
